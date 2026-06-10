@@ -1,12 +1,12 @@
-name:Sample
+name: Sample
 on:
   push:
       branches:
         - master
 jobs:
-    samples:
-      runs-on: ubuntu-latest
+  sample:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Sample test step
-          run: echo "Test application"
+    steps:
+      - name: Sample test step
+        run: echo "Test application"
