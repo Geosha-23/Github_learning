@@ -1,0 +1,11 @@
+name:Sample
+on:
+  push:
+      branches:
+            -main
+jobs:
+    samples
+    runs on:ubuntu-latest
+    steps:
+         -name
+         run:echo "Test"
