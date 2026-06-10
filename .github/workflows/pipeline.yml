@@ -5,7 +5,8 @@ on:
         - master
 jobs:
     samples:
-     runs on: ubuntu-latest
-     steps:
-       - name: Sample test step
-         run: echo "Test application"
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Sample test step
+          run: echo "Test application"
